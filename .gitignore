@@ -1,4 +1,5 @@
 .bash_profile
+.bashrc
 .config/fish/conf.d/_tide_init.fish
 .config/fish/conf.d/autopair.fish
 .config/fish/conf.d/done.fish
@@ -12,6 +13,7 @@
 .config/fish/functions
 .config/fish/README.md
 .config/rclone
+.config/sakura
 .docker
 .freeipmi
 .lesshst
@@ -19,4 +21,6 @@
 .ssh
 .tmux/plugins
 .wget-hsts
+dead.letter
 tools
+
