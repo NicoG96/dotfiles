@@ -3,7 +3,6 @@
 .config/fish/conf.d/autopair.fish
 .config/fish/conf.d/done.fish
 .config/fish/conf.d/fzf.fish
-.config/fish/conf.d/local.fish
 .config/fish/conf.d/puffer_fish_key_bindings.fish
 .config/fish/conf.d/pure.fish
 .config/fish/conf.d/sponge.fish
