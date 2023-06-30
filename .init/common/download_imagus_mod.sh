@@ -12,4 +12,4 @@ ASSET_URL=$(echo "$RELEASE_INFO" | grep -o '"browser_download_url": ".*\.zip"' |
 curl -L "$ASSET_URL" -o "$DOWNLOAD_DIR/imagus-$RELEASE_TAG.zip"
 
 echo "Imagus Mod $RELEASE_TAG has been downloaded to $DOWNLOAD_DIR"
-echo "Install in Chromium by going to Extensions > Developer Mode and then dragging and dropping the .zip file into the window"
+echo "Install in Chromium by unzipping to a permanent directory, going to Extensions > Developer Mode, and then clicking 'Load unpacked'"
