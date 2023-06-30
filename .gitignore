@@ -1,3 +1,4 @@
+.bash_profile
 .config/fish/conf.d/_pure_init.fish
 .config/fish/conf.d/autopair.fish
 .config/fish/conf.d/done.fish
