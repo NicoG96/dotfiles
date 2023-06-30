@@ -26,10 +26,6 @@ abbr --add tc "nano $HOME/.tmux.conf"
 abbr --add du "du -sh"
 abbr --add dur "du -h"
 
-# -- find -------------------------------------------------------------
-abbr --add fd "find . -type d -name"
-abbr --add ff "find . -type f -name"
-
 # -- history ----------------------------------------------------------
 abbr --add h "history"
 abbr --add hs "history | grep -i"

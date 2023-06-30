@@ -1,10 +1,9 @@
 .bash_profile
-.config/fish/conf.d/_pure_init.fish
+.config/fish/conf.d/_tide_init.fish
 .config/fish/conf.d/autopair.fish
 .config/fish/conf.d/done.fish
 .config/fish/conf.d/fzf.fish
 .config/fish/conf.d/puffer_fish_key_bindings.fish
-.config/fish/conf.d/pure.fish
 .config/fish/conf.d/sponge.fish
 .config/fish/conf.d/z.fish
 .config/fish/completions
