@@ -1,0 +1,15 @@
+# Configuration file for ripgrep (rg). Requires RIPGREP_CONFIG_PATH to point to this file.
+# Disable use of configuration files with --no-config.
+
+# Search case insensitively. Override with -s/--case-sensitive.
+--ignore-case
+
+# Truncate and output only a preview of lines that are longer than 200 bytes. Override with --max-columns=0.
+--max-columns=200
+--max-columns-preview
+
+# Search hidden files and directories.
+--hidden
+
+# Never search in the .git directory. This is necessary to include because of --hidden.
+--glob=!.git

@@ -1,0 +1,68 @@
+[user]
+	email = 797224+NicoG96@users.noreply.github.com
+	name = nico
+[push]
+	default = current
+	autoSetupRemote = true
+[pull]
+	ff = only
+	rebase = true
+[core]
+	editor = code --wait
+	excludesfile = ~/.config/git/global_ignore
+[pager]
+	branch = false
+	diff = diff-so-fancy | cat
+[alias]
+	a = add
+	aliases = config --get-regexp ^alias\\.
+	amend = commit --all --amend --no-edit
+	cb = checkout -b
+	cm = commit -m
+	co = checkout
+	d = diff
+	dc = diff --cached
+	fp = push --force
+	l = log --oneline --graph --decorate --all
+	pl = pull
+	ps = push
+	rh = reset --hard
+	rb = rebase origin/master
+	rpath = rev-parse --show-prefix # get path relative to root
+	s = status --short
+	sa = stash apply
+	sd = stash drop
+	sl = stash list
+	sp = stash pop
+	st = stash
+	undo = reset HEAD^ --soft
+[diff]
+	algorithm = patience
+	colorMoved = dimmed-zebra
+[fetch]
+	prune = true
+[help]
+	autocorrect = 8
+[advice]
+	detachedHead = false
+	addIgnoredFile = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	func = 146 bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse

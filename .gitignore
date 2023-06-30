@@ -1,0 +1,8 @@
+.config/rclone
+.docker
+.freeipmi
+.lesshst
+.local
+.ssh
+.wget-hsts
+tools

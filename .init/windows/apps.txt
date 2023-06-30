@@ -1,0 +1,30 @@
+audacity
+ccleaner
+cinebench
+cygwin
+docker
+filezilla
+foobar
+geforce experience
+handbrake
+hudsight
+ms office
+notepad++
+obinskit
+obs studio
+photoshop
+PIA
+python
+revo uninstaller
+shareX
+splashtop personal
+splashtop streamer
+spotify
+sumatraPDF
+tailscale
+userbenchmark
+vscode
+wincdemu
+windirstat
+winscp
+xnview
