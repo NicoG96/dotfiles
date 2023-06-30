@@ -31,10 +31,12 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install ripgrep
 brew install ssh
+brew install syncthing
 brew install tldr
 brew install tmux
 brew install urlview
 
+brew services start syncthing
 brew cleanup
 
 echo "Done!"
