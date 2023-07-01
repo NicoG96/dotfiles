@@ -5,6 +5,7 @@ echo "Setting up Linux environment..."
 ./scripts/apt_packages.sh
 ./scripts/bat-extras.sh
 ./scripts/chsh.sh
+./scripts/delta.sh
 ./scripts/jenv.sh
 ./scripts/navi.sh
 ./scripts/pyenv.sh
