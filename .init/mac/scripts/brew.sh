@@ -16,11 +16,11 @@ brew upgrade
 brew install balenaetcher
 brew install bat
 brew install bat-extras
-brew install diff-so-fancy
 brew install fd
 brew install fish
 brew install fzf
 brew install git
+brew install git-delta
 brew install git-lfs
 brew install gnupg
 brew install jenv

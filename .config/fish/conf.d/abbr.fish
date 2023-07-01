@@ -2,8 +2,8 @@
 abbr --add b "bash"
 
 # -- bat --------------------------------------------------------------
-abbr --add batc "bat --paging=never"
 abbr --add batp "bat -p"
+abbr --add diff "batdiff"
 abbr --add rg "batgrep"
 
 # -- chmod ------------------------------------------------------------
@@ -20,6 +20,7 @@ abbr --add gi "nano $HOME/.gitignore"
 abbr --add init-brew "nano $HOME/.init/mac/scripts/brew.sh"
 abbr --add init-casks "nano $HOME/.init/mac/scripts/casks.sh"
 abbr --add init-pkgs "nano $HOME/.init/linux/scripts/apt_packages.sh"
+abbr --add lo "nano $FISH_HOME/env/$MACHINE_NAME.fish"
 abbr --add tc "nano $HOME/.tmux.conf"
 
 # -- disk -------------------------------------------------------------

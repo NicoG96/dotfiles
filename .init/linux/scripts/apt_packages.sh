@@ -8,6 +8,7 @@ sudo apt install bat
 sudo apt install fish
 sudo apt install fzf
 sudo apt install git
+sudo apt install git-delta
 sudo apt install jq
 sudo apt install neofetch
 sudo apt install openssh-server

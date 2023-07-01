@@ -10,9 +10,28 @@
 [core]
 	editor = code --wait
 	excludesfile = ~/.config/git/global_ignore
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	features = decorations interactive
+	light = false
+	navigate = true
+	side-by-side = true
+[delta "interactive"]
+	keep-plus-minus-markers = false
+[delta "decorations"]
+	commit-decoration-style = blue ol
+	commit-style = raw
+	file-style = omit
+	hunk-header-decoration-style = blue box
+	hunk-header-file-style = yellow
+	hunk-header-line-number-style = "#067a00"
+	hunk-header-style = file line-number syntax
+[merge]
+	conflictstyle = diff3
 [pager]
 	branch = false
-	diff = diff-so-fancy | cat
 [alias]
 	a = add
 	aliases = config --get-regexp ^alias\\.
@@ -28,8 +47,7 @@
 	ps = push
 	rh = reset --hard
 	rb = rebase origin/master
-	rpath = rev-parse --show-prefix # get path relative to root
-	s = status --short
+	s = status --short --untracked-files=no
 	sa = stash apply
 	sd = stash drop
 	sl = stash list
@@ -51,18 +69,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[color]
-	ui = true
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
-[color "diff"]
-	meta = 11
-	frag = magenta bold
-	func = 146 bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
