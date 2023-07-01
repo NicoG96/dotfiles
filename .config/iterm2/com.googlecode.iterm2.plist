@@ -620,13 +620,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.15351898968219757</real>
+				<real>0.12652587890625</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.12613683938980103</real>
+				<real>0.11773667810484767</real>
 				<key>Red Component</key>
-				<real>0.082745037972927094</real>
+				<real>0.10308801010251045</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -1133,6 +1133,8 @@
 			<integer>2</integer>
 			<key>Silence Bell</key>
 			<false/>
+			<key>Smart Cursor Color</key>
+			<false/>
 			<key>Status Bar Layout</key>
 			<dict>
 				<key>advanced configuration</key>
@@ -1360,6 +1362,8 @@
 			<true/>
 			<key>Use Bright Bold</key>
 			<true/>
+			<key>Use Cursor Guide</key>
+			<false/>
 			<key>Use Custom Tab Title</key>
 			<false/>
 			<key>Use Italic Font</key>
@@ -1367,6 +1371,8 @@
 			<key>Use Non-ASCII Font</key>
 			<false/>
 			<key>Use Tab Color</key>
+			<false/>
+			<key>Use Underline Color</key>
 			<false/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
@@ -1457,8 +1463,10 @@
 	<key>UseBorder</key>
 	<false/>
 	<key>UseMetal</key>
-	<false/>
+	<true/>
 	<key>VisualIndicatorForEsc</key>
+	<false/>
+	<key>disableMetalWhenUnplugged</key>
 	<false/>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
