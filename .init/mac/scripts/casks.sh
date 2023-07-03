@@ -1,9 +1,10 @@
 #!/bin/bash
 
-echo "Installing macOS applications via Homebrew casks ..."
+echo "Updating & upgrading Homebrew..."
 brew update
 brew upgrade
 
+echo "Installing macOS applications via Homebrew..."
 brew install --cask bitwarden
 brew install --cask brave-browser
 brew install --cask cyberduck
@@ -30,5 +31,14 @@ brew install --cask tailscale
 brew install --cask temurin
 brew install --cask visual-studio-code
 brew install --cask vlc
+
+echo "Installing Nerd Fonts via Homebrew..."
+brew tap homebrew/cask-fonts
+brew install --cask font-caskaydia-cove-nerd-font
+brew install --cask font-fira-mono-nerd-font
+brew install --cask font-meslo-lg-nerd-font
+brew install --cask font-roboto-mono-nerd-font
+brew install --cask font-sauce-code-pro-nerd-font
+brew install --cask font-ubuntu-mono-nerd-font
 
 echo "Casks installed successfully!"
