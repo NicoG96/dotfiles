@@ -2,6 +2,8 @@
 abbr --add b "bash"
 
 # -- bat --------------------------------------------------------------
+abbr --add batc "bat --paging=never"
+abbr --add bato "bat -p --paging=never"
 abbr --add batp "bat -p"
 abbr --add diff "batdiff"
 abbr --add rg "batgrep"
