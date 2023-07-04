@@ -1,17 +1,29 @@
 #!/bin/bash
 
-echo "Setting up Linux environment..."
 
-./scripts/apt_packages.sh
-./scripts/bat-extras.sh
-./scripts/chsh.sh
-./scripts/delta.sh
-./scripts/fonts.sh
-./scripts/jenv.sh
-./scripts/navi.sh
-./scripts/pyenv.sh
-$HOME/.init/common/fisher.sh
-$HOME/.init/common/download_imagus_mod.sh
-$HOME/.init/common/todo.sh
+echo "==================== Setting up Linux environment  ===================="
 
-echo "Linux environment configuration complete! Please reload the shell."
+COMMON_SCRIPTS_DIR="$HOME/.init/common"
+LINUX_SCRIPTS_DIR="$HOME/.init/linux/scripts"
+POST_SCRIPTS_DIR="$HOME/.init/common/post_install"
+
+
+for script in $COMMON_SCRIPTS_DIR/*.sh
+do
+	bash $script
+done
+
+
+for script in $LINUX_SCRIPTS_DIR/*.sh
+do
+	bash $script
+done
+
+
+for script in $POST_SCRIPTS_DIR/*.sh
+do
+	bash $script
+done
+
+
+echo "================= Linux environment setup complete!  =================="

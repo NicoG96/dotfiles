@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 echo "Installing Nerd Fonts..."
 
 mkdir -p ~/.local/share/fonts
@@ -37,4 +40,4 @@ curl -fsLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/Ubuntu
 curl -fsLO https://github.com/ryanoasis/nerd-fonts/raw/HEAD/patched-fonts/UbuntuMono/Regular/UbuntuMonoNerdFontMono-Regular.ttf
 
 
-echo "Nerd Fonts installed successfully!"
+echo "Nerd Fonts successfully installed!"

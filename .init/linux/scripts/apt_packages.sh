@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 echo "Installing apt packages..."
 
 sudo apt-get update
@@ -17,7 +18,4 @@ sudo apt install syncthing
 sudo apt install tldr
 sudo apt install tmux
 
-systemctl enable syncthing@mint.service
-systemctl start syncthing@mint.service
-
-echo "Done!"
+echo "Packages successfully installed!"

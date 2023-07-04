@@ -1,13 +1,29 @@
 #!/bin/bash
 
-echo "Starting fresh macOS installation and configuration..."
 
-./scripts/brew.sh
-./scripts/macos.sh
-./scripts/chsh.sh
-./scripts/casks.sh
-$HOME/.init/common/fisher.sh
-$HOME/.init/common/download_imagus_mod.sh
-$HOME/.init/common/todo.sh
+echo "==================== Setting up MacOS environment  ===================="
 
-echo "MacOS environment configuration complete! Please reload the shell."
+COMMON_SCRIPTS_DIR="$HOME/.init/common"
+MAC_SCRIPTS_DIR="$HOME/.init/mac/scripts"
+POST_SCRIPTS_DIR="$HOME/.init/common/post_install"
+
+
+for script in $COMMON_SCRIPTS_DIR/*.sh
+do
+	bash $script
+done
+
+
+for script in $MAC_SCRIPTS_DIR/*.sh
+do
+	bash $script
+done
+
+
+for script in $POST_SCRIPTS_DIR/*.sh
+do
+	bash $script
+done
+
+
+echo "================= MacOS environment setup complete!  =================="

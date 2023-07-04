@@ -1,5 +1,6 @@
 #!/opt/homebrew/bin/fish
 
+
 echo "Configuring macOS..."
 
 # Close any open System Preferences panes to prevent them from overriding
@@ -41,4 +42,4 @@ defaults write com.apple.CrashReporter DialogType -string none
 # Set highlight color to green
 defaults write NSGlobalDomain AppleHighlightColor -string "0.752941 0.964706 0.678431 Green"
 
-echo "Done!"
+echo "MacOS successfully configured!"

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 echo "Installing Fish plugins via Fisher..."
 
 curl -sL https://git.io/fisher | source
@@ -14,4 +15,4 @@ fisher install meaningful-ooo/sponge
 fisher install franciscolourenco/done
 fisher install jorgebucaran/autopair.fish
 
-echo "Done!"
+echo "Fisher plugins successfully installed!"

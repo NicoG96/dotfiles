@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 echo "Downloading delta..."
 
 REPO_URL="https://github.com/dandavison/delta/releases"
@@ -13,4 +14,5 @@ curl -L "$ASSET_URL" -o "$DOWNLOAD_DIR/${PACKAGE_NAME}"
 
 echo "Installing delta..."
 sudo dpkg -i $HOME/Downloads/${PACKAGE_NAME}
-echo "Delta installed successfully!"
+rm -f $HOME/Downloads/${PACKAGE_NAME}
+echo "Delta successfully installed!"

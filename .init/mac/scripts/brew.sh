@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo "Installing Homebrew..."
 
+echo "Installing Homebrew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/$USER/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 source /Users/$USER/.zprofile
+echo "Homebrew successfully installed!"
 
 
 echo "Installing Homebrew packages..."
-
 brew update
 brew upgrade
 
@@ -39,5 +39,4 @@ brew install urlview
 
 brew services start syncthing
 brew cleanup
-
-echo "Done!"
+echo "Homebrew packages successfully installed!"
