@@ -56,6 +56,7 @@ abbr --add H "head"
 abbr --add T "tail"
 
 # -- python -----------------------------------------------------------
+abbr --add pl "pip list"
 abbr --add pu "python -m pip install --upgrade pip"
 abbr --add pv "pyenv versions"
 
