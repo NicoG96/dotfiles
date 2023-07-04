@@ -1,5 +1,6 @@
 .bash_profile
 .bashrc
+.cache
 .config/fish/conf.d/_tide_init.fish
 .config/fish/conf.d/autopair.fish
 .config/fish/conf.d/done.fish
