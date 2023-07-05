@@ -34,6 +34,7 @@
 	branch = false
 [alias]
 	a = add
+	ap = add -p
 	aliases = config --get-regexp ^alias\\.
 	amend = commit --all --amend --no-edit
 	cb = checkout -b
@@ -41,18 +42,21 @@
 	co = checkout
 	d = diff
 	dc = diff --cached
+	del = reset HEAD^ --hard
 	f = fetch
 	fp = push --force
 	l = log --oneline --graph --decorate --all
+	ll = log --oneline --graph --decorate
 	pl = pull
 	ps = push
-	rh = reset --hard
 	rb = rebase origin/master
 	s = status --short --untracked-files=no
 	sa = stash apply
 	sd = stash drop
 	sl = stash list
 	sp = stash pop
+	ss = stash show
+	ssd = stash show -p
 	st = stash
 	undo = reset HEAD^ --soft
 [diff]
