@@ -12,6 +12,7 @@ ms office
 notepad++
 obinskit
 obs studio
+obsidian
 photoshop
 PIA
 python

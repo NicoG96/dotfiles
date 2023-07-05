@@ -14,6 +14,7 @@ brew install --cask gpg-suite
 brew install --cask intellij-idea-ce
 brew install --cask iterm2
 brew install --cask microsoft-office
+brew install --cask obsidian
 brew install --cask plex
 brew install --cask plexamp
 brew install --cask postman

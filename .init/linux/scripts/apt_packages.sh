@@ -11,6 +11,7 @@ sudo apt install fzf
 sudo apt install git
 sudo apt install jq
 sudo apt install neofetch
+sudo apt install obsidian
 sudo apt install openssh-server
 sudo apt install ripgrep
 sudo apt install ssh
