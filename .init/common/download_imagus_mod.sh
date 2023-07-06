@@ -4,7 +4,7 @@
 echo "Downloading Imagus Mod..."
 
 REPO_URL="https://github.com/TheFantasticWarrior/chrome-extension-imagus"
-DOWNLOAD_DIR="$HOME/tools"
+DOWNLOAD_DIR="$HOME/utils"
 
 RELEASE_INFO=$(curl -s "https://api.github.com/repos/TheFantasticWarrior/chrome-extension-imagus/releases/latest")
 RELEASE_TAG=$(echo "$RELEASE_INFO" | grep -o '"tag_name": ".*"' | cut -d'"' -f4)
