@@ -1,10 +1,11 @@
 #!/bin/bash
 
+source ~/.init/common/utils/functions.sh
 
-echo "Installing Fish plugins via Fisher..."
-
+print_section "Installing Fish..."
 curl -sL https://git.io/fisher | source
 
+print_section "Installing Fish plugins..."
 fisher install edc/bass
 fisher install franciscolourenco/done
 fisher install jethrokuan/z
@@ -15,5 +16,3 @@ fisher install nickeb96/puffer-fish
 fisher install patrickf1/colored_man_pages.fish
 fisher install patrickf1/fzf.fish
 fisher install pure-fish/pure
-
-echo "Fisher plugins successfully installed!"

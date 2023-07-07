@@ -1,8 +1,6 @@
 #!/bin/bash
 
+source ~/.init/common/utils/functions.sh
 
-echo "Installing pyenv..."
-
+print_section "Installing pyenv..."
 curl https://pyenv.run | bash
-
-echo "Pyenv successfully installed!"

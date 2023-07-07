@@ -1,12 +1,12 @@
-#!/opt/homebrew/bin/fish
+#!/bin/bash
 
-
-echo "Configuring macOS..."
+source ~/.init/common/utils/functions.sh
+print_section "Configuring macOS..."
 
 # Close any open System Preferences panes to prevent them from overriding
 # the settings being configured
 osascript -e 'tell application "System Preferences" to quit'
-
+sudo -v
 
 ###############################################################################
 # Finder                                                                      #
@@ -42,4 +42,5 @@ defaults write com.apple.CrashReporter DialogType -string none
 # Set highlight color to green
 defaults write NSGlobalDomain AppleHighlightColor -string "0.752941 0.964706 0.678431 Green"
 
-echo "MacOS successfully configured!"
+# Disable boot sound effect
+nvram SystemAudioVolume=" "

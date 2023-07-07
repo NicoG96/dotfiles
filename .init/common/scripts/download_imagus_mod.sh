@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
-echo "Downloading Imagus Mod..."
+source ~/.init/common/utils/functions.sh
+print_section "Downloading Imagus Mod..."
 
 REPO_URL="https://github.com/TheFantasticWarrior/chrome-extension-imagus"
 DOWNLOAD_DIR="$HOME/utils"
@@ -14,5 +14,3 @@ OUT_PATH="$DOWNLOAD_DIR/imagus-$RELEASE_TAG.zip"
 curl --create-dirs -sL "$ASSET_URL" -o "$OUT_PATH"
 unzip -qq "$OUT_PATH" -d "$DOWNLOAD_DIR/imagus-$RELEASE_TAG"
 rm -rf "$OUT_PATH"
-
-echo "Imagus Mod successfully downloaded!"

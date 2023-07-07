@@ -1,8 +1,8 @@
 #!/bin/bash
 
+source ~/.init/common/utils/functions.sh
 
-echo "Installing apt packages..."
-
+print_section "Installing apt packages..."
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt install bat
@@ -18,5 +18,3 @@ sudo apt install ssh
 sudo apt install syncthing
 sudo apt install tldr
 sudo apt install tmux
-
-echo "Packages successfully installed!"

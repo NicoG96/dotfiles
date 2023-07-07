@@ -1,9 +1,7 @@
 #!/bin/bash
 
+source ~/.init/common/utils/functions.sh
 
-echo "Installing bat-extras..."
-
-git clone git@github.com:eth-p/bat-extras.git $HOME/tools
-sudo $HOME/tools/bat-extras/build.sh --install
-
-echo "Bat-extras successfully installed!"
+print_section "Installing bat-extras..."
+git clone git@github.com:eth-p/bat-extras.git $HOME/utils
+sudo $HOME/utils/bat-extras/build.sh --install
