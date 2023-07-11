@@ -18,3 +18,4 @@ sudo apt install ssh
 sudo apt install syncthing
 sudo apt install tldr
 sudo apt install tmux
+sudo apt install urlview
