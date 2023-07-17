@@ -49,7 +49,7 @@
 	ll = log --oneline --graph --decorate
 	pl = pull
 	ps = push
-	rb = rebase origin/master
+	rb = rebase -i origin/master
 	s = status --short --untracked-files=no
 	sa = stash apply
 	sd = stash drop
