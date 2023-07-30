@@ -24,6 +24,7 @@
 .ssh
 .tmux/plugins
 .wget-hsts
+.z
 dead.letter
 utils
 
