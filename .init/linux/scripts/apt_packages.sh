@@ -6,6 +6,7 @@ print_section "Installing apt packages..."
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt install bat
+sudo apt install docker.io
 sudo apt install fish
 sudo apt install fzf
 sudo apt install git
