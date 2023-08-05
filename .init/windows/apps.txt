@@ -3,6 +3,7 @@ ccleaner
 cinebench
 cygwin
 docker
+eartrumpet
 filezilla
 foobar
 geforce experience
@@ -15,6 +16,7 @@ obs studio
 obsidian
 photoshop
 PIA
+powertoys
 python
 revo uninstaller
 shareX
