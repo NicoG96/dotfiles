@@ -7,6 +7,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt install bat
 sudo apt install docker.io
+sudo apt install filezilla
 sudo apt install fish
 sudo apt install fzf
 sudo apt install git
