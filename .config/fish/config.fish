@@ -7,10 +7,4 @@ if status is-interactive
 	else
 		echo "Error sourcing Fish environment file: $FISH_HOME/env/$MACHINE_NAME.fish not found!"
 	end
-
-	if test -e ~/.ssh/id_ed25519
-		ssh-add ~/.ssh/id_ed25519
-	else
-		echo "Error adding private key to ssh-agent: file id_ed25519 not found!"
-	end
 end
