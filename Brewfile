@@ -85,4 +85,6 @@ cask "font-ubuntu-mono-nerd-font"
 # App Store applications
 # ------------------------------------------------------------------------------
 
+mas "Prologue", id: 1459223267
 mas "Tailscale", id: 1475387142
+
