@@ -80,7 +80,6 @@ cask "font-roboto-mono-nerd-font"
 cask "font-sauce-code-pro-nerd-font"
 cask "font-ubuntu-mono-nerd-font"
 
-
 # ------------------------------------------------------------------------------
 # App Store applications
 # ------------------------------------------------------------------------------
