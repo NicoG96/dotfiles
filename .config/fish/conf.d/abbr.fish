@@ -1,9 +1,5 @@
-# -- bash -------------------------------------------------------------
-abbr --add b "bash"
-
 # -- bat --------------------------------------------------------------
-abbr --add batc "bat --paging=never"
-abbr --add bato "bat -p --paging=never"
+abbr --add batnp "bat -p --paging=never"
 abbr --add batp "bat -p"
 abbr --add diff "batdiff"
 abbr --add rg "batgrep"
@@ -23,6 +19,7 @@ abbr --add init-brew "nano $HOME/Brewfile"
 abbr --add init-pkgs "nano $HOME/.init/linux/scripts/apt_packages.sh"
 abbr --add init-windows "nano $HOME/.init/windows/apps.txt"
 abbr --add lo "nano $FISH_HOME/env/$MACHINE_NAME.fish"
+abbr --add rc "nano $HOME/.config/ripgrep/ripgrep"
 abbr --add tc "nano $HOME/.tmux.conf"
 
 # -- disk -------------------------------------------------------------
