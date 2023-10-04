@@ -2,7 +2,7 @@
 # Disable use of configuration files with --no-config.
 
 # Search case insensitively. Override with -s/--case-sensitive.
---ignore-case
+--smart-case
 
 # Truncate and output only a preview of lines that are longer than 200 bytes. Override with --max-columns=0.
 --max-columns=200
