@@ -2,8 +2,8 @@
 .bash_profile
 .bashrc
 .cache
-.config
-!.config/fish/conf.d
+.config/fish
+.config/htop
 .docker
 .freeipmi
 .lesshst
