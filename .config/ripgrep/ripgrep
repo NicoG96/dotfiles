@@ -1,6 +1,9 @@
 # Configuration file for ripgrep (rg). Requires RIPGREP_CONFIG_PATH to point to this file.
 # Disable use of configuration files with --no-config.
 
+--colors=line:fg:yellow
+--colors=match:bg:blue
+
 # Search case insensitively. Override with -s/--case-sensitive.
 --smart-case
 

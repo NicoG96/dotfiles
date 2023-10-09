@@ -2,7 +2,6 @@
 abbr --add batnp "bat -p --paging=never"
 abbr --add batp "bat -p"
 abbr --add diff "batdiff"
-abbr --add rg "batgrep"
 
 # -- chmod ------------------------------------------------------------
 abbr --add chx "chmod +x"

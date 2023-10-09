@@ -3,6 +3,7 @@
 .bashrc
 .cache
 .config/fish
+!.config/fish/conf.d
 .config/htop
 .docker
 .freeipmi
