@@ -34,9 +34,9 @@
 	branch = false
 [alias]
 	a = add
+	al = config --get-regexp ^alias\\.
 	ap = add -p
-	aliases = config --get-regexp ^alias\\.
-	amend = commit --all --amend --no-edit
+	app = commit --all --amend --no-edit
 	cb = checkout -b
 	cm = commit -m
 	co = checkout
