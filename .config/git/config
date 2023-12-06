@@ -53,6 +53,7 @@
 	s = status --short --untracked-files=no
 	sa = stash apply
 	sd = stash drop
+	sf = stash --
 	sl = stash list
 	sp = stash pop
 	ss = stash show
