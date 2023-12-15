@@ -2,6 +2,7 @@
 .bash_profile
 .bashrc
 .cache
+.config/borg
 .config/fish
 !.config/fish/conf.d
 .config/htop
