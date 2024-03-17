@@ -35,6 +35,7 @@ abbr --add jv "jenv versions"
 # -- ls ---------------------------------------------------------------
 abbr --add l "ls -lh"
 abbr --add la "ls -lAh"
+abbr --add ld "ls -ld */"
 abbr --add ldt "ls -ld .*"
 abbr --add ll "ls -h"
 abbr --add lr "ls -ltRh"
