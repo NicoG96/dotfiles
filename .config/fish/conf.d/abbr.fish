@@ -41,6 +41,7 @@ abbr --add lr "ls -ltRh"
 abbr --add lt "ls -lth"
 
 # -- misc -------------------------------------------------------------
+abbr --add auu "sudo apt update && sudo apt upgrade"
 abbr --add buu "brew update && brew upgrade"
 abbr --add g "git"
 abbr --add ping "ping -a"
