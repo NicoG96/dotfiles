@@ -8,18 +8,18 @@ abbr --add chx "chmod +x"
 abbr --add chw "chmod +w"
 
 # -- configs ----------------------------------------------------------
-abbr --add a "nano $FISH_HOME/conf.d/abbr.fish"
-abbr --add e "nano $FISH_HOME/conf.d/env.fish"
-abbr --add cfg "nano $FISH_HOME/config.fish"
-abbr --add cc "nano $FISH_HOME/env/common.fish"
-abbr --add gc "nano $HOME/.config/git/config"
-abbr --add gi "nano $HOME/.gitignore"
-abbr --add init-brew "nano $HOME/Brewfile"
-abbr --add init-pkgs "nano $HOME/.init/linux/scripts/apt_packages.sh"
-abbr --add init-windows "nano $HOME/.init/windows/apps.txt"
-abbr --add lc "nano $FISH_HOME/env/$MACHINE_NAME.fish"
-abbr --add rc "nano $HOME/.config/ripgrep/ripgrep"
-abbr --add tc "nano $HOME/.tmux.conf"
+abbr --add a "micro $FISH_HOME/conf.d/abbr.fish"
+abbr --add e "micro $FISH_HOME/conf.d/env.fish"
+abbr --add cfg "micro $FISH_HOME/config.fish"
+abbr --add cc "micro $FISH_HOME/env/common.fish"
+abbr --add gc "micro $HOME/.config/git/config"
+abbr --add gi "micro $HOME/.gitignore"
+abbr --add init-brew "micro $HOME/Brewfile"
+abbr --add init-pkgs "micro $HOME/.init/linux/scripts/apt_packages.sh"
+abbr --add init-windows "micro $HOME/.init/windows/apps.txt"
+abbr --add lc "micro $FISH_HOME/env/$MACHINE_NAME.fish"
+abbr --add rc "micro $HOME/.config/ripgrep/ripgrep"
+abbr --add tc "micro $HOME/.tmux.conf"
 
 # -- disk -------------------------------------------------------------
 abbr --add du "du -sh"
@@ -41,20 +41,21 @@ abbr --add ll "ls -h"
 abbr --add lr "ls -ltRh"
 abbr --add lt "ls -lth"
 
+# -- micro -------------------------------------------------------------
+abbr --add m "micro"
+
 # -- misc -------------------------------------------------------------
 abbr --add auu "sudo apt update && sudo apt upgrade"
 abbr --add buu "brew update && brew upgrade"
 abbr --add g "git"
 abbr --add ping "ping -a"
 
-# -- nano -------------------------------------------------------------
-abbr --add n "nano"
-
 # -- piping -----------------------------------------------------------
 abbr --add H "head"
 abbr --add T "tail"
 
 # -- python -----------------------------------------------------------
+abbr --add pr "pip install -r requirements.txt"
 abbr --add pl "pip list"
 abbr --add pu "python -m pip install --upgrade pip"
 abbr --add pv "pyenv versions"
