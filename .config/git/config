@@ -50,6 +50,7 @@
 	pl = pull
 	ps = push
 	rb = rebase -i origin/master
+	rm = restore --staged
 	s = status --short --untracked-files=no
 	sa = stash apply
 	sd = stash drop
