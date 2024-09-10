@@ -1,6 +1,6 @@
 if status is-interactive
-	set -Ux fish_greeting
-	set -Ux MACHINE_NAME (string split -m1 . $hostname)[1]
+	set -gx fish_greeting
+	set -gx MACHINE_NAME (string split -m1 . $hostname)[1]
 
 	if test -e $FISH_HOME/env/$MACHINE_NAME.fish
 		source $FISH_HOME/env/$MACHINE_NAME.fish
