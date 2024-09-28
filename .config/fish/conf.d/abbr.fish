@@ -1,6 +1,6 @@
 # -- bat --------------------------------------------------------------
-abbr --add batnp "bat --paging=never -p"
 abbr --add batp "bat -p"
+abbr --add batpn "bat --paging=never"
 abbr --add diff "batdiff"
 
 # -- chmod ------------------------------------------------------------
@@ -13,13 +13,7 @@ abbr --add e "micro $FISH_HOME/conf.d/env.fish"
 abbr --add cfg "micro $FISH_HOME/config.fish"
 abbr --add cc "micro $FISH_HOME/env/common.fish"
 abbr --add gc "micro $HOME/.config/git/config"
-abbr --add gi "micro $HOME/.gitignore"
-abbr --add init-brew "micro $HOME/Brewfile"
-abbr --add init-pkgs "micro $HOME/.init/linux/scripts/apt_packages.sh"
-abbr --add init-windows "micro $HOME/.init/windows/apps.txt"
 abbr --add lc "micro $FISH_HOME/env/$MACHINE_NAME.fish"
-abbr --add rc "micro $HOME/.config/ripgrep/ripgrep"
-abbr --add tc "micro $HOME/.tmux.conf"
 
 # -- disk -------------------------------------------------------------
 abbr --add du "du -sh"
