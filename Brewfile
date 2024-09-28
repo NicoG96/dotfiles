@@ -25,7 +25,7 @@ brew "gnupg"
 brew "jenv"
 brew "jq"
 brew "mas"
-brew "nano"
+brew "micro"
 brew "navi"
 brew "neofetch"
 brew "pyenv"
@@ -83,4 +83,3 @@ cask "font-ubuntu-mono-nerd-font"
 
 mas "Prologue", id: 1459223267
 mas "Tailscale", id: 1475387142
-
