@@ -1,5 +1,5 @@
 # -- bat --------------------------------------------------------------
-abbr --add batnp "bat -p --paging=never"
+abbr --add batnp "bat --paging=never -p"
 abbr --add batp "bat -p"
 abbr --add diff "batdiff"
 
