@@ -49,14 +49,15 @@
 	la = log --oneline --graph --decorate --all
 	pl = pull
 	ps = push
-	rb = rebase -i origin/master
 	rm = restore --staged
+	rv = checkout -- 
 	s = status --short --untracked-files=no
 	sa = stash apply
 	sd = stash drop
 	sf = stash --
 	sl = stash list
 	sp = stash pop
+	squash = rebase -i origin/master
 	ss = stash show
 	ssd = stash show -p
 	st = stash
