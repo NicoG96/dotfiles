@@ -19,6 +19,9 @@ abbr --add lc "micro $FISH_HOME/env/$MACHINE_NAME.fish"
 abbr --add du "du -sh"
 abbr --add dur "du -h"
 
+# -- gradle -----------------------------------------------------------
+abbr --add gcb "./gradlew clean build"
+
 # -- history ----------------------------------------------------------
 abbr --add h "history"
 abbr --add hs "history | grep -i"
