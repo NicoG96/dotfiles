@@ -21,6 +21,7 @@ abbr --add dur "du -h"
 
 # -- gradle -----------------------------------------------------------
 abbr --add gcb "./gradlew clean build"
+abbr --add gci "./gradlew clean ci"
 
 # -- history ----------------------------------------------------------
 abbr --add h "history"
