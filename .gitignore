@@ -11,6 +11,7 @@
 .freeipmi
 .lesshst
 .local
+.npm
 .ssh
 .tmux/plugins
 .wget-hsts
